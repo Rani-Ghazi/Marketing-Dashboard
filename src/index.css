@@ -38,11 +38,13 @@
 }
 
 .glass-card {
-  @apply bg-card/50 backdrop-blur-lg border border-white/10 rounded-xl transition-all duration-300 shadow-lg;
+  @apply bg-card/50 backdrop-blur-lg border border-white/10 rounded-xl transition-all duration-300;
+  box-shadow: 0 4px 24px -1px rgba(0, 0, 0, 0.2);
 }
 
 .glass-card:hover {
-  @apply shadow-xl border-white/20 bg-card/60;
+  @apply border-white/20 bg-card/60;
+  box-shadow: 0 8px 32px -1px rgba(0, 0, 0, 0.3);
   transform: translateY(-2px);
 }
 
@@ -98,6 +100,19 @@
 
 .slide-in {
   animation: slideIn 0.5s ease-out forwards;
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-white via-white/90 to-white/70 bg-clip-text text-transparent;
+}
+
+.glass-button {
+  @apply px-4 py-2 rounded-lg bg-primary/20 backdrop-blur-sm border border-primary/30 
+         hover:bg-primary/30 transition-all duration-300 text-white font-medium;
+}
+
+.card-hover {
+  @apply transition-all duration-300 hover:scale-105 hover:shadow-lg;
 }
 
 /* Responsive typography */
