@@ -2,21 +2,26 @@
 import { StatsCard } from "@/components/StatsCard";
 import { AreaChart } from "@/components/AreaChart";
 import { ActivityList } from "@/components/ActivityList";
+import { PieChart } from "@/components/PieChart";
+import { QuickStats } from "@/components/QuickStats";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background p-6 md:p-8">
-      <div className="max-w-7xl mx-auto space-y-8">
+    <div className="min-h-screen bg-background p-4 md:p-6 lg:p-8 overflow-x-hidden">
+      <div className="max-w-7xl mx-auto space-y-6">
         {/* Header */}
         <div className="fade-in">
-          <h1 className="text-2xl font-bold bg-gradient-to-r from-white to-white/70 bg-clip-text text-transparent">
-            Dashboard
+          <h1 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-white to-white/70 bg-clip-text text-transparent">
+            Dashboard Overview
           </h1>
-          <p className="text-muted-foreground">Track your business metrics</p>
+          <p className="text-muted-foreground">Welcome back! Here's what's happening today.</p>
         </div>
 
+        {/* Quick Stats */}
+        <QuickStats />
+
         {/* Stats Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           <StatsCard
             title="Total Revenue"
             value="$127,632.00"
@@ -38,7 +43,7 @@ const Index = () => {
         </div>
 
         {/* Charts Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6">
           <div className="lg:col-span-2">
             <AreaChart />
           </div>
@@ -47,8 +52,14 @@ const Index = () => {
           </div>
         </div>
 
+        {/* Bottom Section */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+          <PieChart />
+          <ActivityList />
+        </div>
+
         {/* Attribution */}
-        <footer className="text-center text-sm text-muted-foreground pt-8 border-t border-border fade-in">
+        <footer className="text-center text-sm text-muted-foreground py-8 border-t border-border fade-in">
           <p>Developed by Rani Ghazi</p>
         </footer>
       </div>
