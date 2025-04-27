@@ -12,7 +12,7 @@ const stats = [
   },
   {
     title: "Total Sales",
-    value: "$45.2k",
+    value: "OMR 45.2k",
     icon: DollarSign,
     change: "+15.2%",
     changeColor: "text-green-400",
@@ -32,9 +32,13 @@ export function QuickStats() {
       {stats.map((stat, index) => (
         <Card 
           key={stat.title} 
-          className="glass-card p-6 hover:scale-105 transition-all duration-300"
-          style={{ animationDelay: `${index * 150}ms` }}
+          className="glass-card p-6 hover:scale-105 transition-all duration-300 relative overflow-hidden"
+          style={{ 
+            animationDelay: `${index * 150}ms`,
+            background: 'linear-gradient(to right, rgba(28, 25, 37, 0.8), rgba(28, 25, 37, 0.6))'
+          }}
         >
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent pointer-events-none" />
           <div className="flex items-center justify-between mb-4">
             <div className="p-3 rounded-lg bg-primary/10 backdrop-blur-lg">
               <stat.icon className="w-6 h-6 text-primary" />
