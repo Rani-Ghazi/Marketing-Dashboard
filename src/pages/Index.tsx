@@ -8,8 +8,10 @@ const Index = () => {
     <div className="min-h-screen bg-background p-6 md:p-8">
       <div className="max-w-7xl mx-auto space-y-8">
         {/* Header */}
-        <div>
-          <h1 className="text-2xl font-bold">Dashboard</h1>
+        <div className="fade-in">
+          <h1 className="text-2xl font-bold bg-gradient-to-r from-white to-white/70 bg-clip-text text-transparent">
+            Dashboard
+          </h1>
           <p className="text-muted-foreground">Track your business metrics</p>
         </div>
 
@@ -46,7 +48,7 @@ const Index = () => {
         </div>
 
         {/* Attribution */}
-        <footer className="text-center text-sm text-muted-foreground pt-8 border-t border-border">
+        <footer className="text-center text-sm text-muted-foreground pt-8 border-t border-border fade-in">
           <p>Developed by Rani Ghazi</p>
         </footer>
       </div>
