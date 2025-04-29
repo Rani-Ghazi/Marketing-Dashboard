@@ -37,7 +37,7 @@ export function AreaChart() {
               stroke="#666" 
               tickLine={false}
               axisLine={false}
-              tickFormatter={(value) => `$${value.toLocaleString()}`}
+              tickFormatter={(value) => `OMR ${value.toLocaleString()}`}
             />
             <Tooltip 
               contentStyle={{ 
@@ -45,7 +45,8 @@ export function AreaChart() {
                 border: "1px solid rgba(255, 255, 255, 0.1)",
                 borderRadius: "8px",
                 boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)"
-              }} 
+              }}
+              formatter={(value) => [`OMR ${value.toLocaleString()}`, "Revenue"]}
             />
             <Area
               type="monotone"

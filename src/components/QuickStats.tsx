@@ -12,7 +12,7 @@ const stats = [
   },
   {
     title: "Total Sales",
-    value: "$45.2k",
+    value: "OMR 45.2k",
     icon: DollarSign,
     change: "+15.2%",
     changeColor: "text-green-400",
