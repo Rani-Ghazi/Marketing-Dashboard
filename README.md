@@ -1,73 +1,60 @@
-# Welcome to your Lovable project
+# 📈 Marketing Dashboard Project
 
-## Project info
+## 📊 About the Project
 
-**URL**: https://lovable.dev/projects/b108b47a-54a3-4ad4-ae0a-27597c5e5376
+The **Marketing Dashboard** is a responsive web application built to help businesses and marketing teams track their performance in real time. It provides a sleek and modern interface for visualizing:
 
-## How can I edit this code?
+- 📈 Active users and growth trends
+- 💰 Total sales and revenue data
+- 🧠 Conversion rates and performance metrics
+- 🌐 Traffic sources (Direct, Social Media, Email, Referrals)
+- 🗓️ Recent marketing activities like campaigns and ads
 
-There are several ways of editing your application.
+This dashboard is ideal for startup founders, digital marketers, and analysts who want a fast, clear snapshot of their key marketing KPIs.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b108b47a-54a3-4ad4-ae0a-27597c5e5376) and start prompting.
+## 📷 Project Screenshot
 
-Changes made via Lovable will be committed automatically to this repo.
+![Marketing Dashboard Screenshot](screenshot.png)
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🌐 Live Demo
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**Visit the project**: [https://marketingdashboard.netlify.app/](https://marketingdashboard.netlify.app/)
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+## 🧰 Tech Stack
+
+This project is built using modern frontend technologies:
+
+- ⚡ [Vite](https://vitejs.dev/) — lightning-fast build tool
+- ⚛️ [React](https://reactjs.org/) — UI framework
+- 🧑‍💻 [TypeScript](https://www.typescriptlang.org/) — typed JavaScript
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) — utility-first CSS framework
+- 🧩 [shadcn/ui](https://ui.shadcn.dev/) — beautiful, accessible UI components
+
+---
+
+## 🛠️ How to Run the Project Locally
+
+### Prerequisites:
+- Node.js and npm installed  
+(You can use [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) to manage versions)
+
+### Setup Instructions:
+
+```bash
+# 1. Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# 2. Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Start the development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/b108b47a-54a3-4ad4-ae0a-27597c5e5376) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
