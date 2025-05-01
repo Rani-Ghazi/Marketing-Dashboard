@@ -4,16 +4,6 @@
 
 The **Marketing Dashboard** is a responsive web application built to help businesses and marketing teams track their performance in real time. It provides a sleek and modern interface for visualizing:
 
-- 📈 Active users and growth trends
-- 💰 Total sales and revenue data
-- 🧠 Conversion rates and performance metrics
-- 🌐 Traffic sources (Direct, Social Media, Email, Referrals)
-- 🗓️ Recent marketing activities like campaigns and ads
-
-This dashboard is ideal for startup founders, digital marketers, and analysts who want a fast, clear snapshot of their key marketing KPIs.
-
----
-
 ## 📷 Project Screenshot
 
 ![Marketing Dashboard Screenshot](screenshot.png)
@@ -25,6 +15,17 @@ This dashboard is ideal for startup founders, digital marketers, and analysts wh
 **Visit the project**: [https://marketingdashboard.netlify.app/](https://marketingdashboard.netlify.app/)
 
 ---
+
+- 📈 Active users and growth trends
+- 💰 Total sales and revenue data
+- 🧠 Conversion rates and performance metrics
+- 🌐 Traffic sources (Direct, Social Media, Email, Referrals)
+- 🗓️ Recent marketing activities like campaigns and ads
+
+This dashboard is ideal for startup founders, digital marketers, and analysts who want a fast, clear snapshot of their key marketing KPIs.
+
+---
+
 
 ## 🧰 Tech Stack
 
